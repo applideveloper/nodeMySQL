@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  .row
+    .contents.well.storyeditor
+      form(method='POST', action='/create')
+        input(type='hidden', name='sid', value=story.sid)
+        label
+          input.input-block-level(type='text', name='title', placeholder='Title', value=story.title)
+        label
+          input.input-block-level(type='text', name='slug', placeholder='SLUG', value=story.url)
+        label
+          textarea.input-block-level(name='body', placeholder='story body') #{story.body}
+        label
+          button.btn(type='submit', name='commit') Save Story
+

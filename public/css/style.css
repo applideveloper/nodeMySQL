@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header {
+	margin-bottom: 1em;
+}
+
+textarea {
+	height: 10em;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.story .title {
+	font-size: 150%;
+}
+
+.story .header {
+	color: #AAA;
+	margin-bottom: 1em;
+	font-size: 90%;
+}
+
+.story .body {
+}
+
+.story {
+	margin-bottom: 2em;
+}
+
+footer {
+	border-top: 1px solid #DDD;
+	color: #AAA;
+}

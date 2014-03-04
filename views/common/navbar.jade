@@ -1,0 +1,15 @@
+//- navigation bar
+.navbar-space
+.navbar.navbar-fixed-top
+  .navbar-inner
+    .container
+      ul.nav
+        li: a(href='/create') create story
+      ul.nav.pull-right
+        li.dropdown
+          a.dropdown-toggle(href='#', data-toggle='dropdown')
+            | #{user.name}
+            b.caret
+          ul.dropdown-menu
+            li: a(href='/logout') logout
+

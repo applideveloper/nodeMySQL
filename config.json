@@ -1,0 +1,14 @@
+{
+  "databaseAuth": {
+    "user": "nbloguser",
+    "database": "nblog_test",
+    "password": "nblog-test-1234",
+    "host": "localhost",
+    "port": 3306
+  },
+  "sessonAuth": {
+    "host": "localhost",
+    "port": 11211
+  },
+  "cookieHash": "random string in signing Cookie"
+}

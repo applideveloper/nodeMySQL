@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  .storyes
+    each story in stories
+      include common/story
+  .pagenation
+    ul
+      if page.previous
+        li: a(href=page.previous) Prev
+      else
+        li.disabled: a Prev
+      if page.next
+        li: a(href=page.next) Next
+      else
+        li.disabled: a Next    
